@@ -1,0 +1,20 @@
+# Dependencies
+frontend/node_modules/
+contracts/node_modules/
+
+# Environment variables
+.env
+contracts/.env
+
+# Hardhat build output
+contracts/artifacts/
+contracts/cache/
+contracts/typechain-types/
+
+# Next.js build output
+frontend/.next/
+frontend/out/
+
+# OS files
+.DS_Store
+Thumbs.db
