@@ -1,0 +1,24 @@
+{
+  "name": "pyth-of-fortune",
+  "version": "1.0.0",
+  "description": "Pyth of Fortune Hardhat project",
+  "main": "index.js",
+  "scripts": {
+    "compile": "npx hardhat compile",
+    "deploy": "npx hardhat run scripts/deploy.ts --network baseSepolia"
+  },
+  "devDependencies": {
+    "@nomicfoundation/hardhat-chai-matchers": "^2.1.0",
+    "@nomicfoundation/hardhat-ethers": "^3.1.0",
+    "@types/chai": "^4.3.20",
+    "@types/node": "^20.7.1",
+    "chai": "^4.3.10",
+    "dotenv": "^17.2.0",
+    "hardhat": "^2.19.2",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.9.2"
+  },
+  "dependencies": {
+    "@pythnetwork/entropy-sdk-solidity": "^2.0.0"
+  }
+}
