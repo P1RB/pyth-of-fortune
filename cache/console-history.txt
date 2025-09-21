@@ -1,0 +1,527 @@
+... }
+...     await sleep(500);
+...     // Wait 500ms before next request
+...
+...     console.log(`✅ Sequence ${i} done: prize = ${prize}`);
+...
+...     });
+...         prize: prize
+...         random: rand,
+...         sequence: i,
+...     summary.push({
+...     // Store in summary array
+...
+...     let prize = await prizeWheel.getPrize(i);
+...     let rand = await prizeWheel.randomResults(i);
+...     // Fetch random number and prize
+...
+...     await tx.wait();
+...     let tx = await prizeWheel.requestRandomness({ value: 0 });
+...     // Request randomness
+> for (let i = 1; i <= 10; i++) {
+>
+Uncaught SyntaxError: Identifier 'summary' has already been declared
+> let summary = [];
+>
+undefined
+... }
+...     return new Promise(resolve => setTimeout(resolve, ms));
+> function sleep(ms) {
+undefined
+> // Helper: simple delay function
+console.table(summary);
+// Display all results in a table
+}
+    await sleep(500);
+    // Wait 500ms before next request
+    console.log(`✅ Sequence ${i} done: prize = ${prize}`);
+    });
+        prize: prize
+        random: rand,
+        sequence: i,
+    summary.push({
+    // Store in summary array
+    let prize = await prizeWheel.getPrize(i);
+    let rand = await prizeWheel.randomResults(i);
+    // Fetch random number and prize
+    await tx.wait();
+    let tx = await prizeWheel.requestRandomness({ value: 0 });
+    // Request randomness
+for (let i = 1; i <= 10; i++) {
+let summary = [];
+}
+    return new Promise(resolve => setTimeout(resolve, ms));
+function sleep(ms) {
+// Helper: simple delay function
+console.table(summary);
+// Display all results in a table
+}
+    await sleep(500);
+    // Wait 500ms before next request
+    console.log(`✅ Sequence ${i} done: prize = ${prize}`);
+    });
+        prize: prize
+        random: rand,
+        sequence: i,
+    summary.push({
+    // Store in summary array
+    let prize = await prizeWheel.getPrize(i);
+    let rand = await prizeWheel.randomResults(i);
+    // Fetch random number and prize
+    await tx.wait();
+    let tx = await prizeWheel.requestRandomness({ value: 0 });
+    // Request randomness
+for (let i = 1; i <= 10; i++) {
+let summary = [];
+}
+    return new Promise(resolve => setTimeout(resolve, ms));
+function sleep(ms) {
+// Helper: simple delay function
+console.table(summary);
+// Display all results in a table
+}
+    await sleep(500);
+    // Wait 500ms before next request
+    console.log(`✅ Sequence ${i} done: prize = ${prize}`);
+    });
+        prize: prize
+        random: rand,
+        sequence: i,
+    summary.push({
+    // Store in summary array
+    let prize = await prizeWheel.getPrize(i);
+    let rand = await prizeWheel.randomResults(i);
+    // Fetch random number and prize
+    await tx.wait();
+    let tx = await prizeWheel.requestRandomness({ value: 0 });
+    // Request randomness
+for (let i = 1; i <= 10; i++) {
+let summary = [];
+}
+    return new Promise(resolve => setTimeout(resolve, ms));
+function sleep(ms) {
+// Helper: simple delay function
+console.table(summary);
+// Display all results in a table
+}
+    await sleep(500);
+    // Wait 500ms before next request
+    console.log(`✅ Sequence ${i} done: prize = ${prize}`);
+    });
+        prize: prize
+        random: rand,
+        sequence: i,
+    summary.push({
+    // Store in summary array
+    let prize = await prizeWheel.getPrize(i);
+    let rand = await prizeWheel.randomResults(i);
+    // Fetch random number and prize
+    await tx.wait();
+    let tx = await prizeWheel.requestRandomness({ value: 0 });
+    // Request randomness
+for (let i = 1; i <= 10; i++) {
+let summary = [];
+}
+    return new Promise(resolve => setTimeout(resolve, ms));
+function sleep(ms) {
+// Helper: simple delay function
+console.table(summary);
+// Display all results in a table
+}
+    await sleep(500);
+    // Wait 500ms before next request
+    console.log(`✅ Sequence ${i} done: prize = ${prize}`);
+    });
+        prize: prize
+        random: rand,
+        sequence: i,
+    summary.push({
+    // Store in summary array
+    let prize = await prizeWheel.getPrize(i);
+    let rand = await prizeWheel.randomResults(i);
+    // Fetch random number and prize
+    await tx.wait();
+    let tx = await prizeWheel.requestRandomness({ value: 0 });
+    // Request randomness
+for (let i = 1; i <= 10; i++) {
+let summary = [];
+}
+    return new Promise(resolve => setTimeout(resolve, ms));
+function sleep(ms) {
+// Helper: simple delay function
+console.table(summary);
+// Display all results in a table
+}
+    await sleep(500);
+    // Wait 500ms before next request
+    console.log(`✅ Sequence ${i} done: prize = ${prize}`);
+    });
+        prize: prize
+        random: rand,
+        sequence: i,
+    summary.push({
+    // Store in summary array
+    let prize = await prizeWheel.getPrize(i);
+    let rand = await prizeWheel.randomResults(i);
+    // Fetch random number and prize
+    await tx.wait();
+    let tx = await prizeWheel.requestRandomness({ value: 0 });
+    // Request randomness
+for (let i = 1; i <= 10; i++) {
+let summary = [];
+}
+    return new Promise(resolve => setTimeout(resolve, ms));
+function sleep(ms) {
+// Helper: simple delay function
+console.table(summary);
+// Display all results
+}
+    });
+        prize: prize
+        random: rand,
+        sequence: i,
+    summary.push({
+    // Store in summary array
+    let prize = await prizeWheel.getPrize(i);
+    let rand = await prizeWheel.randomResults(i);
+    // Fetch random number and prize
+    await tx.wait();
+    let tx = await prizeWheel.requestRandomness({ value: 0 });
+    // Request randomness
+for (let i = 1; i <= 10; i++) {
+let summary = [];
+console.log("Prize for sequence 2:", prize2);
+const prize2 = await prizeWheel.getPrize(2);
+console.log("Random result for sequence 2:", result2);
+const result2 = await prizeWheel.randomResults(2);
+console.log("Transaction mined, block number:", receipt2.blockNumber);
+const receipt2 = await tx2.wait();
+console.log("Transaction sent, hash:", tx2.hash);
+const tx2 = await prizeWheel.requestRandomness({ value: 0 });
+console.log("Prize for sequence 1:", prize1);
+const prize1 = await prizeWheel.getPrize(1);
+console.log("Random result for sequence 1:", result1);
+const result1 = await prizeWheel.randomResults(1);
+console.log("Transaction mined, block number:", receipt1.blockNumber);
+const receipt1 = await tx1.wait();
+console.log("Transaction sent, hash:", tx1.hash);
+const tx1 = await prizeWheel.requestRandomness({ value: 0 });
+console.log("PrizeWheel deployed at:", prizeWheel.target);
+const prizeWheel = await PWFactory.deploy(mockEntropy.target);
+const PWFactory = await ethers.getContractFactory("PrizeWheel");
+console.log("MockEntropyV2 deployed at:", mockEntropy.target);
+await mockEntropy.deployed();
+const mockEntropy = await MockEntropyFactory.deploy();
+const MockEntropyFactory = await ethers.getContractFactory("MockEntropyV2");
+.exit
+console.log("Random result for sequence 1 after callback:", result1);
+let result1 = await prizeWheel2.randomResults(1);
+await prizeWheel2.triggerCallbackForTesting(1, mockEntropy.target, randomNumber);
+console.log("Random result for sequence 1:", result2);
+let result2 = await prizeWheel2.randomResults(1);
+console.log("Transaction mined, block number:", receipt2.blockNumber);
+const receipt2 = await tx2.wait();
+console.log("Transaction sent, hash:", tx2.hash);
+const tx2 = await prizeWheel2.requestRandomness({ value: 0 });
+console.log("New PrizeWheel deployed at:", prizeWheel2.target);
+const prizeWheel2 = await PWFactory.deploy("0xa513E6E4b8f2a923D98304ec87F64353C4D5C853");
+const PWFactory = await ethers.getContractFactory("PrizeWheel");
+console.log("MockEntropyV2 attached at:", mockEntropy.target);
+const mockEntropy = await MockEntropyFactory.attach("0xa513E6E4b8f2a923D98304ec87F64353C4D5C853");
+const MockEntropyFactory = await ethers.getContractFactory("MockEntropyV2");
+.exit
+console.log("Random result for sequence 1:", result1);
+let result1 = await prizeWheel.randomResults(1);
+console.log("Transaction mined, block number:", receipt1.blockNumber);
+let receipt1 = await tx1.wait();
+console.log("Transaction sent, hash:", tx1.hash);
+let tx1 = await prizeWheel.requestRandomness({ value: 0 });
+console.log("New PrizeWheel deployed at:", prizeWheel.target);
+let prizeWheel = await PWFactory.deploy("0xa513E6E4b8f2a923D98304ec87F64353C4D5C853");
+let PWFactory = await ethers.getContractFactory("PrizeWheel");
+console.log("MockEntropyV2 attached at:", mockEntropy.target);
+const mockEntropy = await MockEntropyFactory.attach("0xa513E6E4b8f2a923D98304ec87F64353C4D5C853");
+const MockEntropyFactory = await ethers.getContractFactory("MockEntropyV2");
+await hre.run("compile");
+await prizeWheel.getPrize(2)
+await prizeWheel.entropy()
+await prizeWheel.getEntropy()
+console.log("Random result for sequence 2:", result2);
+let result2 = await prizeWheel.randomResults(2);
+console.log("Transaction mined, block number:", receipt2.blockNumber);
+let receipt2 = await tx2.wait();
+console.log("Transaction sent, hash:", tx2.hash);
+let tx2 = await prizeWheel.requestRandomness({ value: 0 });
+// Use new variable names to avoid redeclaration
+console.log("Transaction mined, block number:", receipt.blockNumber);
+let receipt = await tx.wait();
+console.log("Transaction sent, hash:", tx.hash);
+let tx = await prizeWheel.requestRandomness({ value: 0 });
+console.log("New PrizeWheel deployed at:", prizeWheel.target);
+let prizeWheel = await PWFactory.deploy("0xa513E6E4b8f2a923D98304ec87F64353C4D5C853");
+let PWFactory = await ethers.getContractFactory("PrizeWheel");
+console.log("MockEntropyV2 attached at:", mockEntropy.target);
+const mockEntropy = await MockEntropyFactory.attach("0xa513E6E4b8f2a923D98304ec87F64353C4D5C853");
+console.log("Transaction mined, block number:", receipt1.blockNumber);
+let receipt1 = await tx1.wait();
+console.log("Transaction sent, hash:", tx1.hash);
+let tx1 = await prizeWheel.requestRandomness({ value: 0 });
+console.log("Transaction mined, block number:", receipt1.blockNumber);
+let receipt1 = await tx1.wait();
+console.log("Transaction sent, hash:", tx1.hash);
+let tx1 = await prizeWheel.requestRandomness({ value: 0 });
+console.log("Transaction mined, block number:", receipt1.blockNumber);
+let receipt1 = await tx1.wait();
+console.log("Transaction sent, hash:", tx1.hash);
+console.log("Transaction mined, block number:", receipt.blockNumber);
+let receipt = await tx.wait();
+console.log("Transaction sent, hash:", tx.hash);
+let tx = await prizeWheel.requestRandomness({ value: 0 });
+console.log("New PrizeWheel deployed at:", prizeWheel.target);
+await prizeWheel.deployed();
+let prizeWheel = await PWFactory.deploy("0xa513E6E4b8f2a923D98304ec87F64353C4D5C853");
+let PWFactory = await ethers.getContractFactory("PrizeWheel");
+console.log("MockEntropyV2 attached at:", mockEntropy.target);
+const mockEntropy = await MockEntropyFactory.attach("0xa513E6E4b8f2a923D98304ec87F64353C4D5C853");
+const MockEntropyFactory = await ethers.getContractFactory("MockEntropyV2");
+console.log("Prize for sequence 1:", prize1);
+let prize1 = await newPW.getPrize(seq1);
+let seq1 = 1;
+sequence = 1;
+const sequence = 1;
+console.log("Prize won for sequence 1:", prize1);
+const prize1 = await newPW.getPrize(sequence);
+await mockEntropy.mockCallback(newPW.address, sequence, randomNumber);
+const randomNumber = "0x123456789abcdef123456789abcdef123456789abcdef123456789abcdef1234";
+const sequence = 1;
+console.log("Random result for sequence 1:", result1);
+let result1 = await newPW.randomResults(1);
+console.log("Transaction mined, block number:", receipt1.blockNumber);
+const receipt1 = await tx.wait();
+console.log("Transaction mined, block number:", receipt.blockNumber);
+const receipt = await tx.wait();
+console.log("Transaction sent, hash:", tx.hash);
+const tx = await newPW.requestRandomness({ value: 0 });
+console.log("Transaction mined, block number:", receipt.blockNumber);
+const receipt = await tx.wait();
+console.log("Transaction sent, hash:", tx.hash);
+console.log("New PrizeWheel deployed at:", newPW.target);
+await newPW.deployed();
+const newPW = await PrizeWheelFactory.deploy("0xa513E6E4b8f2a923D98304ec87F64353C4D5C853");
+const PrizeWheelFactory = await ethers.getContractFactory("PrizeWheel");
+console.log("MockEntropyV2 address:", mockEntropy.target);
+const mockEntropy = await MockEntropyFactory.attach("0xa513E6E4b8f2a923D98304ec87F64353C4D5C853");
+const MockEntropyFactory = await ethers.getContractFactory("MockEntropyV2");
+console.log("Prize won for sequence 2:", prize2);
+let prize2 = await pw1.getPrize(2);
+console.log("Prize won for sequence 2:", prize2);
+let prize2 = await pw1.getPrize(2);
+console.log("Random result for sequence 2:", result2);
+let result2 = await pw1.randomResults(2);
+console.log("Random result for sequence 2:", result2);
+console.log("Transaction mined, block number:", receipt2.blockNumber);
+let receipt2 = await tx2.wait();
+console.log("Transaction sent, hash:", tx2.hash);
+let tx2 = await pw1.requestRandomness({ value: 0 });
+console.log("PrizeWheel attached at:", pw1.target);
+let pw1 = PrizeWheelFactory.attach("0x2279B7A0a67DB372996a5FaB50D91eAA73d2eBe6");
+console.log("PrizeWheel attached at:", pw.target);
+const pw = PrizeWheelFactory.attach("0x2279B7A0a67DB372996a5FaB50D91eAA73d2eBe6");
+const PrizeWheelFactory = await ethers.getContractFactory("PrizeWheel");
+console.log("PrizeWheel attached at:", pw.target);
+let pw = PrizeWheelFactory.attach("0x2279B7A0a67DB372996a5FaB50D91eAA73d2eBe6");
+console.log("Prize won for sequence 1:", prizeForSeq1);
+let prizeForSeq1 = await pw1.getPrize(1);
+console.log("Random result for sequence 1:", result1);
+let result1 = await pw1.randomResults(1);
+console.log("Transaction mined, block number:", receipt1.blockNumber);
+let receipt1 = await tx1.wait();
+console.log("Transaction sent, hash:", tx1.hash);
+let tx1 = await pw1.requestRandomness({ value: 0 });
+console.log("PrizeWheel attached at:", pw1.target);
+let pw1 = PrizeWheelFactory.attach("0x2279B7A0a67DB372996a5FaB50D91eAA73d2eBe6");
+console.log(PrizeWheelFactory);
+let PrizeWheelFactory = await ethers.getContractFactory("PrizeWheel");
+console.log(PrizeWheelFactory);
+let PrizeWheelFactory = await ethers.getContractFactory("PrizeWheel");
+const PrizeWheelFactory = await ethers.getContractFactory("PrizeWheel");
+Object.keys(pw.interface.functions)
+console.log(pw.interface.functions);
+console.log("Prize won for sequence 1:", prize1);
+const prize1 = await pw.getPrize(1);
+console.log("Random result for sequence 1:", result1);
+const result1 = await pw.randomResults(1);
+console.log("Transaction mined, block number:", receipt1.blockNumber);
+const receipt1 = await tx1.wait();
+console.log("Transaction sent, hash:", tx1.hash);
+const tx1 = await pw.requestRandomness({ value: 0 }); // sending 0 ETH for testing
+console.log("PrizeWheel attached at:", pw.target);
+const pw = PrizeWheelFactory.attach("0x2279B7A0a67DB372996a5FaB50D91eAA73d2eBe6");
+const PrizeWheelFactory = await ethers.getContractFactory("PrizeWheel");
+console.log("MockEntropyV2 address:", mockEntropy.target);
+const mockEntropy = await MockEntropyFactory.attach("0xa513E6E4b8f2a923D98304ec87F64353C4D5C853");
+const MockEntropyFactory = await ethers.getContractFactory("MockEntropyV2");
+console.log("Random result for sequence 1:", result1);
+const result1 = await pw.randomResults(1);
+console.log("Transaction mined, block number:", receipt1.blockNumber);
+const receipt1 = await tx1.wait();
+console.log("Transaction sent, hash:", tx1.hash);
+const tx1 = await pw.requestRandomness({ value: 0 });
+console.log("Transaction sent, hash:", tx.hash);
+const tx = await pw.requestRandomness({ value: 0 }); // sending 0 ETH is fine for testing
+pw.target  // should now show the deployed address
+const pw = PrizeWheelFactory.attach("0x2279B7A0a67DB372996a5FaB50D91eAA73d2eBe6");
+prizeWheel.target  // shows the deployed address
+console.log("PrizeWheel attached at:", prizeWheel.target);
+let prizeWheel = await PrizeWheelFactory.attach("0x2279B7A0a67DB372996a5FaB50D91eAA73d2eBe6");
+prizeWheel.target
+console.log("PrizeWheel attached at:", prizeWheel.target);
+const prizeWheel = await PrizeWheelFactory.attach("0x2279B7A0a67DB372996a5FaB50D91eAA73d2eBe6");
+console.log(PrizeWheelFactory);
+const PrizeWheelFactory = await ethers.getContractFactory("PrizeWheel");
+console.log("Random result for sequence 1:", result);
+const result = await prizeWheel.randomResults(1);
+console.log("Transaction mined, block number:", receipt.blockNumber);
+const receipt = await tx.wait();
+console.log("Transaction sent, hash:", tx.hash);
+const tx = await prizeWheel.requestRandomness({ value: 0 });
+console.log("PrizeWheel address:", prizeWheel.target);
+const prizeWheel = await PrizeWheelFactory.attach("0x2279B7A0a67DB372996a5FaB50D91eAA73d2eBe6");
+console.log("MockEntropyV2 address:", mockEntropy.target);
+const mockEntropy = await MockEntropyFactory.attach("0xa513E6E4b8f2a923D98304ec87F64353C4D5C853");
+const MockEntropyFactory = await ethers.getContractFactory("MockEntropyV2");
+console.log("Owner address:", owner.address);
+const [owner] = await ethers.getSigners();
+result  // check the bytes32 random number
+const result = await prizeWheel.randomResults(1);
+// 6️⃣ Read the random result
+receipt.hash  // check transaction hash
+const receipt = await tx.wait();
+const tx = await prizeWheel.requestRandomness({ value: 0 });
+// 5️⃣ Request randomness
+mockEntropy.target  // check address
+const mockEntropy = await MockEntropyFactory.attach("0xa513E6E4b8f2a923D98304ec87F64353C4D5C853");
+const MockEntropyFactory = await ethers.getContractFactory("MockEntropyV2");
+// 4️⃣ Attach MockEntropyV2 if needed
+prizeWheel.target  // check it outputs the contract address
+const prizeWheel = await PrizeWheelFactory.attach("0x2279B7A0a67DB372996a5FaB50D91eAA73d2eBe6");
+// 3️⃣ Attach your deployed PrizeWheel contract
+const PrizeWheelFactory = await ethers.getContractFactory("PrizeWheel");
+// 2️⃣ Create the PrizeWheel factory
+owner.address  // check it outputs your account
+const [owner] = await ethers.getSigners();
+// 1️⃣ Get your signer
+prizeWheel.target
+const prizeWheel = await PrizeWheelFactory.attach("0x2279B7A0a67DB372996a5FaB50D91eAA73d2eBe6");
+mockEntropy.target
+const mockEntropy = await MockEntropyFactory.attach("0xa513E6E4b8f2a923D98304ec87F64353C4D5C853");
+const MockEntropyFactory = await ethers.getContractFactory("MockEntropyV2");
+owner.address
+const [owner] = await ethers.getSigners();
+prizeWheel.target
+const prizeWheel = await PrizeWheelFactory.attach("0x2279B7A0a67DB372996a5FaB50D91eAA73d2eBe6");
+const PrizeWheelFactory = await ethers.getContractFactory("PrizeWheel");
+const [owner] = await ethers.getSigners();
+prizeWheel.target
+let prizeWheel = await PrizeWheelFactory.attach("0x2279B7A0a67DB372996a5FaB50D91eAA73d2eBe6");
+let PrizeWheelFactory = await ethers.getContractFactory("PrizeWheel");
+prizeWheel.target
+const prizeWheel = await PrizeWheelFactory.attach("0x2279B7A0a67DB372996a5FaB50D91eAA73d2eBe6");
+const PrizeWheelFactory = await ethers.getContractFactory("PrizeWheel");
+mockEntropy.target
+const mockEntropy = await MockEntropyFactory.attach("0xa513E6E4b8f2a923D98304ec87F64353C4D5C853");
+const MockEntropyFactory = await ethers.getContractFactory("MockEntropyV2");
+owner.address
+const [owner] = await ethers.getSigners();
+prizeWheel.target
+const prizeWheel = await PrizeWheelFactory.attach("0x2279B7A0a67DB372996a5FaB50D91eAA73d2eBe6");
+const PrizeWheelFactory = await ethers.getContractFactory("PrizeWheel");
+owner.address
+const [owner] = await ethers.getSigners();
+prizeWheel.target  // check address
+const prizeWheel = await PrizeWheelFactory.attach("0x2279B7A0a67DB372996a5FaB50D91eAA73d2eBe6");
+mockEntropy.target  // check that the address is correct
+const mockEntropy = await MockEntropyFactory.attach("0xa513E6E4b8f2a923D98304ec87F64353C4D5C853");
+const MockEntropyFactory = await ethers.getContractFactory("MockEntropyV2");
+owner.address  // check the address
+const [owner] = await ethers.getSigners();
+result
+const result = await prizeWheel.randomResults(1);
+receipt.hash
+const receipt = await tx.wait();
+const tx = await prizeWheel.requestRandomness({ value: 0 });
+prizeWheel.target
+await prizeWheel.waitForDeployment();
+const prizeWheel = await PrizeWheelFactory.deploy("0xa513E6E4b8f2a923D98304ec87F64353C4D5C853");
+const PrizeWheelFactory = await ethers.getContractFactory("PrizeWheel");
+mockEntropy.target
+await mockEntropy.waitForDeployment();
+mockEntropy.address
+const mockEntropy = await MockEntropyFactory.deploy();
+const MockEntropyFactory = await ethers.getContractFactory("MockEntropyV2");
+owner.address
+const [owner] = await ethers.getSigners();
+mockEntropyV2.address
+const txReceipt = await mockEntropyV2.deployTransaction.wait(); // Waits for mining
+const mockEntropyV2 = await MockEntropyV2Factory.deploy();
+let MockEntropyV2Factory = await ethers.getContractFactory("MockEntropyV2");
+const MockEntropyV2Factory = await ethers.getContractFactory("MockEntropyV2");
+mockEntropyV2.address
+const mockEntropyV2 = await MockEntropyV2Factory.deploy(); // ignore .deployed()
+const MockEntropyV2Factory = await ethers.getContractFactory("MockEntropyV2");
+const [owner] = await ethers.getSigners();
+mockEntropyV2.address
+mockEntropy.address;
+await mockEntropy.deployed();
+const mockEntropy = await MockEntropy.deploy();
+const MockEntropy = await ethers.getContractFactory("MockEntropyV2");
+const [owner] = await ethers.getSigners();
+mockEntropyV2.address
+mockEntropyV2.address;
+await mockEntropyV2.deployed();
+const mockEntropyV2 = await MockEntropyV2Factory.deploy();
+const MockEntropyV2Factory = await ethers.getContractFactory("MockEntropyV2");
+mockEntropy.address;
+await mockEntropy.deployed();
+const mockEntropy = await MockEntropy.deploy();
+const MockEntropy = await ethers.getContractFactory("MockEntropyV2");
+const [owner] = await ethers.getSigners();
+mockEntropyV2.address
+mockEntropyV2.address;
+await mockEntropyV2.deployed();
+const mockEntropyV2 = await MockEntropyV2Factory.deploy();
+const MockEntropyV2Factory = await ethers.getContractFactory("MockEntropyV2");
+mockEntropy.address;
+await mockEntropy.deployed();
+const mockEntropy = await MockEntropy.deploy();
+const MockEntropy = await ethers.getContractFactory("MockEntropyV2");
+const [owner] = await ethers.getSigners();
+let MockEntropy = await ethers.getContractFactory("MockEntropyV2");
+const MockEntropy = await ethers.getContractFactory("MockEntropyV2");
+mockEntropy.address;
+await mockEntropy.deployed();
+const mockEntropy = await MockEntropy.deploy();
+const MockEntropy = await ethers.getContractFactory("MockEntropyV2");
+owner.address;
+const [owner] = await ethers.getSigners();
+npx hardhat console --network localhost
+owner.address;
+const [owner] = await ethers.getSigners();
+console.log("PrizeWheel deployed at:", prizeWheel.address);
+await prizeWheel.deployed();
+const prizeWheel = await PrizeWheel.deploy("0x5FbDB2315678afecb367f032d93F642f64180aa3");
+await PrizeWheel.randomResults(1);
+// For example, check sequence 1
+console.log(receipt);
+const receipt = await tx.wait();
+// Wait for transaction to be mined
+const tx = await PrizeWheel.connect(owner).requestRandomness({ value: 0 });
+// Request randomness (sending 0 ETH is fine if the contract allows)
+const [owner] = await ethers.getSigners();
+// Make sure you have a signer
+await PrizeWheel.entropy();
+await PrizeWheel.getEntropy();
+);
+  "0xe7f1725E7734CE288F8367e1Bb143E90bb3F0512"
+  "PrizeWheel",
+const PrizeWheel = await ethers.getContractAt(

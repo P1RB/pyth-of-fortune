@@ -19,13 +19,24 @@ contract PrizeWheel is IEntropyConsumer {
         "Lowkeighs Keys"
     ];
 
-    constructor(address entropyAddress) {
-        require(entropyAddress != address(0), "Invalid entropy address");
-        entropy = IEntropyV2(entropyAddress);
+    // ===== ACCESS CONTROL FOR TESTING =====
+    address public owner = msg.sender;
+
+    modifier onlyOwner() {
+        require(msg.sender == owner, "Not authorized");
+        _;
+    }
+    // ===== END ACCESS CONTROL =====
+
+    // Use the Base Sepolia Entropy V2 address
+    constructor() {
+        entropy = IEntropyV2(0x41c9e39574F40Ad34c79f1C99B66A45eFB830d4c);
     }
 
     function requestRandomness() external payable returns (uint64 sequence) {
-        sequence = entropy.requestV2{value: msg.value}();
+        uint256 fee = entropy.getFeeV2();
+        require(msg.value >= fee, "Insufficient fee");
+        sequence = entropy.requestV2{value: fee}();
     }
 
     function entropyCallback(
@@ -46,11 +57,13 @@ contract PrizeWheel is IEntropyConsumer {
         return prizeResults[sequence];
     }
 
+    // ===== TESTING ONLY =====
     function triggerCallbackForTesting(
         uint64 sequence,
         address provider,
         bytes32 randomNumber
-    ) external {
+    ) external onlyOwner {
         entropyCallback(sequence, provider, randomNumber);
     }
+    // ===== END TESTING ONLY =====
 }

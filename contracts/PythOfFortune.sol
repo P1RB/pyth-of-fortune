@@ -14,22 +14,22 @@ contract PythOfFortune is IEntropyConsumer {
         entropy = IEntropyV2(entropyAddress);
     }
 
-    // Request randomness
+    // Request randomness from Pyth Entropy V2
     function requestRandomness() external payable returns (uint64 sequence) {
-        // Default provider, default gas limit
         sequence = entropy.requestV2{value: msg.value}();
     }
 
-    // Callback from entropy
+    // Handle the random number callback from Entropy
     function entropyCallback(
         uint64 sequence,
         address provider,
         bytes32 randomNumber
     ) internal override {
         results[sequence] = randomNumber;
-        // Add your Pyth-of-Fortune game logic here
+        // Add Pyth-of-Fortune game logic here
     }
 
+    // Return the Entropy contract address
     function getEntropy() internal view override returns (address) {
         return address(entropy);
     }

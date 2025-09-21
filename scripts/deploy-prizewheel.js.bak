@@ -1,0 +1,25 @@
+const hre = require("hardhat");
+
+async function main() {
+  console.log("Deploying PrizeWheel...");
+
+  // Replace this address with the deployed Entropy V2 contract address on your network
+  const ENTROPY_ADDRESS = "0x0000000000000000000000000000000000000000"; 
+
+  const PrizeWheel = await hre.ethers.getContractFactory("PrizeWheel");
+  const prizeWheel = await PrizeWheel.deploy(ENTROPY_ADDRESS);
+
+  await prizeWheel.deployed();
+  console.log("PrizeWheel deployed to:", prizeWheel.address);
+
+  // Optional: confirm initial state
+  const random = await prizeWheel.randomResults(0);
+  console.log("Initial randomResults[0]:", random);
+}
+
+main()
+  .then(() => process.exit(0))
+  .catch((error) => {
+    console.error(error);
+    process.exit(1);
+  });

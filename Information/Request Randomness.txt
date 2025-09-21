@@ -1,0 +1,2 @@
+uint256 fee = entropy.getFeeV2(/* provider, gasLimit, ... */);
+entropy.requestV2{value: fee}(/* params */);

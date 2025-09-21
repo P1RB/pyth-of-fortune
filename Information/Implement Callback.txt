@@ -1,0 +1,1 @@
+Your contract must implement the IEntropyConsumer interface to receive the random number via the entropyCallback function.
